@@ -2,7 +2,7 @@
 
 Folgend nicht inkludiert sind Bauteile welche nicht als projektspezifisch anzusehen sind, sowie Rohmaterialien.
 
-Alle für den Versuchsaufbau verwendeten Komponenten werden in Teil 6 unter dem Punkt \hyperref[labuebung]{Laboröbung} detaillierter beschrieben.
+Alle für den Versuchsaufbau verwendeten Komponenten werden in Teil 6 unter dem Punkt \hyperref[labuebung]{\textit{Laborübung}} nochmals detailliert beschrieben.
 Dort ist auch ihr konkreter Verwendungszweck exakter ausgeführt.
 
 \begin{itemize}
@@ -23,16 +23,22 @@ Dies wurde als sinnvoll erachtet, da diese über einen ausreichenden Bereich fun
 Eine konkrete Auswahl konnte erst nach ermitteln der im Zuge des Versuches maximalen Last getroffen werden.
 Trotz der schlechteren Erfüllung der Anforderungen wurde eine 5kg anstatt einer 2kg Variante gewählt, da zweitere bei keinem Anbieter auf Lager war.
 
+Zwei auf der Wägezelle platzierte DMS (Dehnungsmessstreifen) verändern bei Biegen des Federkörpers ihren Wiederstand minimal, wodurch auch die abfallende Spannung sich verändert.
+
 \subsection{IR-Sensor}
 
 Zur Messung der Drehzahl wurde ein IR-Sensor gewählt, welcher über die gesamte Dauer des Projektes unverändert blieb.
 Für erhöhte Genauigkeit bei den Messungen bot sich eine Ausführung mit höherer Messfrequenz an, da jedoch die anfängliche Variante befriedigende Ergebnisse lieferte wurde von dieser Änderung abgesehen.
 
-Weitere Überlegungen hierzu finden sich unter \hyperref[drehzahlmessung]{Drehzahlmessung} in Teil 5.
+Dieser Sensor liefert den Wert wie viel seines ausgestrahlten Lichts reflektiert wird, somit kann zwischen hellen und dunklen Oberflächen unterschieden werden.
+
+Weitere Überlegungen hierzu finden sich unter \hyperref[drehzahlmessung]{\textit{Drehzahlmessung}} in Teil 5.
 
 \subsection{HX711}
 
 Der HX711 wurde gewählt, da hier beinahe keine anderen Optionen zur Auswahl standen, sowie dieser das breiteste Angebot von Dokumentation zu dessen Verwendung besaß.
+
+Da Veränderungen der Spannung durch die DMS nur minimal ist, muss diese zur Auswertung mit dem Arduino durch den HX711 Baustein verstärkt werden.
 
 \subsection{Arduino Nano}
 
@@ -44,14 +50,14 @@ Trotz der Menge an Alternativen beinflusste hier der Faktor, dass die Verwendung
 Zur Montage des Armes, über welchen das Drehmoment abgelesen wird, wurde eine Rohrschelle gewählt.
 Dies bot sich aufgrund der geringen Kosten, sowie der simplen Verwendung an.
 
-Auch hier finden sich weitere Überlegungen in Teil 5 unter dem Punkt \hyperref[rohrschelle]{Rohrschelle}.
+Auch hier finden sich weitere Überlegungen in Teil 5 unter dem Punkt \hyperref[rohrschelle]{\textit{Rohrschelle}}.
 
 \subsection{Bremsscheibe}
 
 Zum Bremsen wurde eine Bremsscheibe gewählt.
 Hier wurde die kleinste Ausführung gewählt, um die Größe des Versuchsaufbaues gering zu halten.
 
-Alternativen finden sich in Teil 5 unter \hyperref[gegenkupplung]{Gegenkupplung}.
+Alternativen finden sich in Teil 5 unter \hyperref[gegenkupplung]{\textit{Gegenkupplung}}.
 
 
 
