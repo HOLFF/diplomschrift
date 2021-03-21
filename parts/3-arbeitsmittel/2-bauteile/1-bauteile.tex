@@ -25,6 +25,16 @@ Trotz der schlechteren Erfüllung der Anforderungen wurde eine 5kg anstatt einer
 
 Zwei auf der Wägezelle platzierte DMS (Dehnungsmessstreifen) verändern bei Biegen des Federkörpers ihren Wiederstand minimal, wodurch auch die abfallende Spannung sich verändert.
 
+\begin{figure}[H]
+    \centering
+    \hfill
+    \subfigure[Halbbrücken Wägezelle 50kg]{\includegraphics[width=0.3\textwidth]{waegezelle2.jpg}}
+    \hfill
+    \subfigure[Vollbrücken Wägezelle 5kg]{\includegraphics[width=0.3\textwidth]{waegezelle1.jpg}}
+    \hfill
+    \caption{Beide Versionen der Wägezellen}
+\end{figure}
+
 \subsection{IR-Sensor}
 
 Zur Messung der Drehzahl wurde ein IR-Sensor gewählt, welcher über die gesamte Dauer des Projektes unverändert blieb.
@@ -34,16 +44,40 @@ Dieser Sensor liefert den Wert wie viel seines ausgestrahlten Lichts reflektiert
 
 Weitere Überlegungen hierzu finden sich unter \hyperref[drehzahlmessung]{\textit{Drehzahlmessung}} in Teil 5.
 
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.3\textwidth]{irsensor.jpg}
+        \caption{Der IR-Sensor}
+    \end{center}
+\end{figure}
+
 \subsection{HX711}
 
 Der HX711 wurde gewählt, da hier beinahe keine anderen Optionen zur Auswahl standen, sowie dieser das breiteste Angebot von Dokumentation zu dessen Verwendung besaß.
 
 Da Veränderungen der Spannung durch die DMS nur minimal ist, muss diese zur Auswertung mit dem Arduino durch den HX711 Baustein verstärkt werden.
 
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.3\textwidth]{hx711.jpg}
+        \caption{Der HX711 Verstärkerbaustein}
+    \end{center}
+\end{figure}
+
 \subsection{Arduino Nano}
 
 Auch hier war die zu treffende Entscheidung sehr einfach.
 Trotz der Menge an Alternativen beinflusste hier der Faktor, dass die Verwendung des Arduino Nano aufgrund der Verwendung im Unterricht bereits gängig war diese Entscheidung am meisten.
+
+\begin{figure}[H]
+    \centering
+    \hfill
+    \subfigure[Arduino Nano]{\includegraphics[width=0.3\textwidth]{arduino.jpg}}
+    \hfill
+    \subfigure[Arduino Kit]{\includegraphics[width=0.3\textwidth]{arduinokit.jpg}}
+    \hfill
+    \caption{Arduino und Arduino Kit für die Versuche}
+\end{figure}
 
 \subsection{Rohrschelle}
 
@@ -52,13 +86,26 @@ Dies bot sich aufgrund der geringen Kosten, sowie der simplen Verwendung an.
 
 Auch hier finden sich weitere Überlegungen in Teil 5 unter dem Punkt \hyperref[rohrschelle]{\textit{Rohrschelle}}.
 
-\subsection{Bremsscheibe}
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.3\textwidth]{rohrschelle.jpg}
+        \caption{Die Rohrschelle mit angeschweißtem Arm}
+    \end{center}
+\end{figure}
 
-Zum Bremsen wurde eine Bremsscheibe gewählt.
+\subsection{Bremse}
+
+Zum Bremsen wurde eine Bremsscheibe mit einem mechanischen Bremsschuh gewählt.
 Hier wurde die kleinste Ausführung gewählt, um die Größe des Versuchsaufbaues gering zu halten.
 
 Alternativen finden sich in Teil 5 unter \hyperref[gegenkupplung]{\textit{Gegenkupplung}}.
 
-
-
-!!TODO : Bilder einfügen.
+\begin{figure}[H]
+    \centering
+    \hfill
+    \subfigure[Bremsscheibe 120mm]{\includegraphics[width=0.3\textwidth]{bremsscheibe.jpg}}
+    \hfill
+    \subfigure[Bremssattel zu Bremsscheibe]{\includegraphics[width=0.3\textwidth]{bremssattel.jpg}}
+    \hfill
+    \caption{Bremssatz für den Laboraufbau}
+\end{figure}
